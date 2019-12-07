@@ -8,7 +8,7 @@ import Button from "@material-ui/core/Button";
 
 const styles = theme => ({
   button: {
-    margin: theme.spacing.unit
+    margin: theme.spacing(1)
   },
   input: {
     display: "none"
@@ -21,7 +21,7 @@ const FlatButtons = props => {
     <div>
       <div>
         <Button
-          variant="fab"
+          variant="contained"
           color="primary"
           aria-label="add"
           className={classes.button}
@@ -29,7 +29,7 @@ const FlatButtons = props => {
           <AddIcon />
         </Button>
         <Button
-          variant="fab"
+          variant="contained"
           color="secondary"
           aria-label="edit"
           className={classes.button}
@@ -37,7 +37,7 @@ const FlatButtons = props => {
           <Icon>edit_icon</Icon>
         </Button>
         <Button
-          variant="fab"
+          variant="contained"
           disabled
           aria-label="delete"
           className={classes.button}

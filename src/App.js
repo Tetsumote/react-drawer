@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Appbar from './components/Appbar.js';
-import Routes from './routes/index'
 import './App.css';
 
 class App extends Component {
@@ -10,7 +9,6 @@ class App extends Component {
       <React.Fragment>
         <CssBaseline />
         <Appbar />
-        <Routes />
       </React.Fragment>
     );
   }
